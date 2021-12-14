@@ -27,7 +27,30 @@
 .App-link {
   color: #61dafb;
 }
-
+.Center{
+  margin-left: auto;
+  margin-right: auto;
+  width: 30em
+}
+.Button{
+  text-decoration: none;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  line-height: auto;
+  border-radius: 10px;
+  margin: 10px 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #524f4e;
+  background: white;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+  transition: .3s;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
